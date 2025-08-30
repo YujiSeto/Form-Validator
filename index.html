@@ -14,7 +14,8 @@
       <div class="rightside">
         <h1>Create an Account</h1>
 
-        <form method="POST" action="register.html" class="validator">
+        <form method="GET" action="register.html" class="validator">
+          <!-- Need to be POST, used GET only to work on GitHub Pages -->
           <label>
             Full Name:<br />
             <input type="text" name="name" data-rules="required|min=2" />
